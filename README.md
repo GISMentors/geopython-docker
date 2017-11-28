@@ -1,6 +1,10 @@
 # Docker image for GISMmentors/GeoPython workshop
 
-Docker image configuration of [Jupyter notebook](http://jupyter.org/).
+Docker image configuration of [Jupyter notebook](http://jupyter.org/) for the
+GeoPython training courses provided by [GISMentors](http://gismentors.cz).
+
+* http://training.gismentors.eu/geopython-zacatecnik
+* http://training.gismentors.eu/geopython-pokrocily
 
 ## Run it
 
@@ -23,6 +27,8 @@ docker run -p 8888:8888 \
 4. Open browser and go to http://localhost:8888
 
 5. Enter password: `geopython`
+
+6. Follow the workshop at http://training.gismentors.eu/geopython-zacatecnik
 
 Data are located in `/data/data` folder, student working directories should be
 created in `/outputs/` dir.
