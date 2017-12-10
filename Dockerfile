@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 LABEL com.example.version="1.0.0-alpha"
 LABEL vendor="GISMentors/OpenGeoLabs"
-LABEL com.example.release-date="2017-12-01"
+LABEL com.example.release-date="2017-12-10"
 LABEL com.example.version.is-production=""
 
 RUN apt-get update && \
