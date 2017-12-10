@@ -1,4 +1,9 @@
 fiona
-rasterio
+rasterio==1.0a12
+affine
 gdal
 jupyter
+shapely
+matplotlib
+OWSlib
+pyproj
